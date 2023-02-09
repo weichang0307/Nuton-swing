@@ -61,6 +61,8 @@ function draw(){
 	let text='ball '+(choose+1)+' > '
 	ctx.font='60px sans-serif'
 	ctx.fillText(text,ww/2-ctx.measureText(text).width,-wh/2+60)
+	ctx.fillText('右鍵選擇要控制角度的球',-ww/2+10,-wh/2+60)
+	ctx.fillText('按下Enter開始模擬',-ww/2+10,-wh/2+120)
 
 
 	sl01.draw()
